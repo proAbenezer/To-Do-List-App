@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To do APP</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="header">Tasks</h1>
+      <form class="form" id="form">
+        <input
+          type="text"
+          placeholder="Enter Your Task"
+          class="form__input"
+          id="form--input"
+        />
+        <button type="submit" class="form__button" id="form--button">
+          Add
+        </button>
+      </form>
+
+      <ol class="tasks" id="tasks">
+        <!-- <div class="task" id="task">
+          <li class="task__name" id="task--name">Work out</li>
+          <div class="task__buttons" id="task--buttons">
+            <button class="task__button task__edit--button" id="task--edit">
+              Edit
+            </button>
+            <button class="task__button task__remove--button" id="task--remove">
+              Delete
+            </button>
+          </div>
+        </div> -->
+      </ol>
+    </div>
+  </body>
+</html>
